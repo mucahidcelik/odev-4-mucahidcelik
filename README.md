@@ -1,1 +1,1 @@
-mucahids-weather-app
+https://mucahids-weather-app.netlify.app/
