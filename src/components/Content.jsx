@@ -10,7 +10,7 @@ function Content(props) {
                 <div>
                     <img
                         src={`http://openweathermap.org/img/wn/${props.data.weather.summary.icon}.png`}
-                        title={props.data.weather.summary.description}/>
+                        title={props.data.weather.summary.description} alt={props.data.weather.summary.description}/>
                 </div>
                 <div>
                     {props.data.weather.summary.title}
